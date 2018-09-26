@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "第二状态管理页面",
+  "usingComponents": {
+    "c": "../../comp/c1"
+  }
+}

@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.list{
+display: block;
+}
+.test-back {
+  border: red solid 1px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  /* background-image:  url(../../images/logo-s.png); */
+}

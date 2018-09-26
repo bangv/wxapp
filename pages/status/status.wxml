@@ -1,0 +1,7 @@
+<!--conpnent.wxml-->
+<view class="container">
+  <i-button bind:click="bindViewTap" type="primary" size="large">跳转</i-button>
+  <i-button bind:click="changeVal" type="primary" size="large">改变</i-button>
+  <view>{{testValue}}</view>
+  <c localtimeProps="{{localtime}}"></c>
+</view>

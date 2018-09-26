@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <i-button bind:click="bindViewTap" type="warning" size="large">跳转到charts</i-button>
+  <i-button bind:click="bindViewStatus" type="warning" size="large">跳转到Status</i-button>
+  <i-icon type="activity_fill"  size="30"/><i-icon type="addressbook_fill" size="30" />
+  <view wx:for="{{lists}}" wx:for-index="idx" wx:for-item="itemName" wx:key="idx">
+    <view class="list" bindtap="getName" data-index='{{idx}}' data-list='{{itemName}}'>{{idx}}: {{itemName.name}}=====>{{itemName.sex}}</view>
+  </view>
+  <view class="test-back">
+    <!-- <image src="../../images/logo-s.png" mode="aspectFit"  style="width: 100px; height:100px;"></image> -->
+  </view>
+</view>

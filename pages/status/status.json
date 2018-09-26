@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "状态管理",
+  "usingComponents": {
+    "i-button": "../../dist/button/index",
+    "c": "../../comp/c1"
+  }
+}
