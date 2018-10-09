@@ -21,10 +21,14 @@ Page({
       url: '../line/line'
     })
   },
-  bindViewStatus: function () {
+  bindViewStatus: function() {
     wx.navigateTo({
       url: '../status/status'
     })
+  },
+  addValue: function() {
+    this.data.lists.push({name: '马六', sex: '男' });
+    console.info(this.data.lists)
   },
   getName: function(event) {
     var index = event.currentTarget.dataset['index'];

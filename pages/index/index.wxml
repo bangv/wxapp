@@ -6,12 +6,13 @@
     <view class="list" bindtap="getName" data-index='{{idx}}' data-list='{{itemName}}'>
       {{idx}}: {{itemName.name}}=====>{{itemName.sex}}</view>
   </view>
-  <view class="test-back">
+  <view><i-button bind:click="addValue"size="large" >Add  Data</i-button></view>
+  <view class="test-back" >
     <!-- <image src="../../images/logo-s.png" mode="aspectFit"  style="width: 100px; height:100px;"></image> -->
   </view>
 
-  <i-button bind:click="bindViewTap" size="large" class="changerurl">跳转到charts</i-button>
-  <i-button bind:click="bindViewStatus" size="large" class="changeval">跳转到Status</i-button>
+  <i-button  bind:click="bindViewTap" size="large" class="changerurl ">跳转到charts</i-button>
+  <i-button bind:click="bindViewStatus" size="large" class="changeval ">跳转到Status</i-button>
 
 
 
