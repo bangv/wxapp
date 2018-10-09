@@ -1,4 +1,4 @@
 <!--comp/c1.wxml-->
-<view>组件c1</view>
-<view>读取组件prop：{{localtimeProps}}</view>
-<view>读取全局状态：{{localtimeData}}</view>
+<view style="margin-top:30px">以下是获取全局和组建的Prop</view>
+<view style="margin-top:10px">读取组件prop：{{localtimeProps}}</view>
+<view style="margin-top:10px">读取全局状态：{{localtimeData}}</view>

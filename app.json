@@ -6,9 +6,9 @@
     "pages/line/line"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#bf0404",
+      "navigationBarTitleText": "小程序演讲DEMO",
+      "navigationBarTextStyle": "#ffffff"
   }
 }

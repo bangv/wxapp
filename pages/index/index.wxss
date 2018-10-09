@@ -20,15 +20,47 @@
 .usermotto {
   margin-top: 200px;
 }
-.list{
-display: block;
+.center{
+  padding: 10px;
+  text-align: center;
 }
+
+.list {
+  display: block;
+  padding-left: 20px;
+  border-bottom:#ccc solid 1px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.changerurl {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  bottom: 25px;
+  right: 3px;
+  background: rgb(255, 255, 255);
+  color: #000;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 40px;
+}
+.changeval {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  bottom: 25px;
+  left: 3px;
+  font-size: 12px;
+  line-height: 40px;
+}
+
 .test-back {
   border: red solid 1px;
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
   background-size: 100% 100%;
   /* background-image:  url(../../images/logo-s.png); */
 }
