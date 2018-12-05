@@ -10,8 +10,8 @@ function initChart(canvas, width, height) {
   canvas.setChart(chart);
 
   var option = {
-    backgroundColor: "#fff",
-    color: ["#37A2DA", "#67E0E3", "#9FE6B8"],
+    backgroundColor: "#000000",
+    color: ["#000000", "red", "#9FE6B8"],
 
     tooltip: {
       trigger: 'axis'
